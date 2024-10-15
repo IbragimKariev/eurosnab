@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>EuroSnab - Надежный партнер в сфере снабжения</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="снабжение, серверное оборудование, системы хранения данных, программное обеспечение, кибербезопасность, ИТ-инфраструктура, EuroSnab">
+    <meta name="description" content="ТОО EuroSnab предлагает надежные решения в сфере снабжения, включая серверное оборудование, системы хранения данных, программное обеспечение и кибербезопасность. Наша команда профессионалов всегда готова помочь!">
+    
+    <link href="img/favicon.ico" rel="icon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <div class="container-fluid sticky-top bg-primary shadow-sm bg-primary">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <img src="./img/logo.png" style="width: 200px; border-radius: 4px;" alt="">
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a style="color: #ffffff;" href="#aboutus" class="nav-item nav-link">О нас</a>
+                        <a style="color: #ffffff;" href="#services" class="nav-item nav-link">Услуги</a>
+
+                        <a style="color: #ffffff;" href="#contacts" class="nav-item nav-link">Контакты</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5 bg-primary hero-header mb-5" style="background: url(./img/792.jpg); background-size: cover;">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">EuroSnab
+                    </div>
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">Ваш надежный партнер в сфере снабжения
+                    </h1>
+                    <p class="text-white mb-4 animated slideInRight">Наша команда поможет вам с любыми задачами в
+                        области снабжения и информационных технологий. Мы предлагаем высококачественное оборудование и
+                        решения для вашего бизнеса.</p>
+                    <a href=""
+                        class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight">Подробнее</a>
+                    <a href=""
+                        class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Свяжитесь с
+                        нами</a>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <!-- <img class="img-fluid" src="img/hero-img.png" alt="Серверное оборудование"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section id="aboutus">
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="about-img">
+                            <img class="img-fluid" src="img/about-img.jpg" alt="О компании EuroSnab">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">О нас</div>
+                        <h1 class="mb-4">Мы поможем вашему бизнесу развиваться</h1>
+                        <p class="mb-4">Компания EuroSnab — это надежный партнер в сфере поставок серверного
+                            оборудования,
+                            систем хранения данных, программного обеспечения и решений для кибербезопасности. Мы
+                            работаем с
+                            ведущими мировыми производителями, чтобы предоставить вам качественные решения для любых
+                            задач.
+                        </p>
+                        <p class="mb-4">Наша команда профессионалов готова предложить вам лучшие технологии и
+                            индивидуальные
+                            подходы для реализации ваших проектов.</p>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Награды и признание</h6>
+                                <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Профессиональная команда
+                                </h6>
+                            </div>
+                            <div class="col-sm-6">
+                                <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Поддержка 24/7</h6>
+                                <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Честные цены</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mt-4">
+                            <a class="btn btn-primary rounded-pill px-4 me-3" href="">Подробнее</a>
+                            <a class="btn btn-outline-primary btn-square me-3" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-square me-3" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-square me-3" href=""><i
+                                    class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+  <section id="services">
+    <div class="container-fluid bg-light mt-5 py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Наши услуги</div>
+                    <h1 class="mb-4">Наши отличные решения для вашего бизнеса</h1>
+                    <p class="mb-4">Мы предлагаем комплексные решения в сфере снабжения и информационных технологий.
+                        Наша команда готова помочь вам с любыми задачами и предложить современные технологии для вашего
+                        бизнеса.</p>
+                    <a class="btn btn-primary rounded-pill px-4" href="">Подробнее</a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div
+                                        class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-server fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Серверное оборудование</h5>
+                                        <p>Предлагаем серверы от ведущих производителей для выполнения любых задач
+                                            вашего бизнеса.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div
+                                        class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-database fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Системы хранения данных</h5>
+                                        <p>Надежные решения для хранения и управления вашими данными.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                    <div
+                                        class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-shield-alt fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Кибербезопасность</h5>
+                                        <p>Защита вашего бизнеса с помощью современных решений в сфере информационной
+                                            безопасности.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                    <div
+                                        class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-desktop fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Персональные системы</h5>
+                                        <p>Широкий выбор оборудования для обеспечения максимальной производительности
+                                            вашего персонала.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <div class="container-fluid bg-primary feature pt-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Почему выбирают нас</div>
+                    <h1 class="text-white mb-4">Наш опыт — залог вашего успеха</h1>
+                    <p class="text-light mb-4">Мы предлагаем инновационные решения для бизнеса, обеспечивая высокое
+                        качество обслуживания и надежность на каждом этапе сотрудничества.</p>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-shield-alt"></i>
+                        </div>
+                        <span>Надежность и безопасность</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-clock"></i>
+                        </div>
+                        <span>Соблюдение сроков выполнения проектов</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                        <span>Комплексные решения под ключ</span>
+                    </div>
+                    <div class="row g-4 pt-3">
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-users fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h2 class="text-white mb-0" data-toggle="counter-up">9999</h2>
+                                    <p class="text-white mb-0">Счастливые клиенты</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-check fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h2 class="text-white mb-0" data-toggle="counter-up">9999</h2>
+                                    <p class="text-white mb-0">Успешные проекты</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="img/feature.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 800px; margin: 0 auto;">
+                <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Эффективность бизнес-процессов</div>
+                <h1 class="mb-4">Оптимизация и Управление</h1>
+                <p class="mb-4">Специалисты нашей компании помогут Вам подобрать от простых до сложных, уникальных
+                    системных решений для эффективного управления бизнес-процессами компании, которые помогут Вам с
+                    оптимизацией и достижением хороших показателей. Соединив важные виды ее деятельности для повышения
+                    эффективности целей и задач компании.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+                    <div class="bg-light rounded p-4 text-center">
+                        <h4>Системная интеграция</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="bg-light rounded p-4 text-center">
+                        <h4>Проектирование IT-инфраструктуры</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="bg-light rounded p-4 text-center">
+                        <h4>Организация ЦОД</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-light rounded p-4 text-center">
+                        <h4>Техническая поддержка бизнеса</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="bg-light rounded p-4 text-center">
+                        <h4>Сервисное и послегарантийное обслуживание</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="bg-light rounded p-4 text-center">
+                        <h4>Аутсорсинг IT-сервисов/ресурсов</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.8s">
+                    <div class="bg-light rounded p-4 text-center">
+                        <h4>Сопровождение корпоративных/бизнес систем</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.9s">
+                    <div class="bg-light rounded p-4 text-center">
+                        <h4>Технический аудит</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="1.0s">
+                    <div class="bg-light rounded p-4 text-center">
+                        <h4>Анализ решений</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="1.1s">
+                    <div class="bg-light rounded p-4 text-center">
+                        <h4>ИТ-консалтинг</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="1.2s">
+                    <div class="bg-light rounded p-4 text-center">
+                        <h4>Заказная разработка ПО</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="1.3s">
+                    <div class="bg-light rounded p-4 text-center">
+                        <h4>Миграция в облако</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="1.4s">
+                    <div class="bg-light rounded p-4 text-center">
+                        <h4>Обучение</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid bg-secondary feature pb-5 pt-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-12 align-self-center mb-md-12 pb-md-12 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Информационная безопасность</div>
+                    <h1 class="text-white mb-4">Защита ваших данных на первом месте</h1>
+                    <p class="text-light mb-4">Мы предоставляем широкий спектр решений по информационной безопасности,
+                        чтобы обеспечить защиту всех ваших данных и систем.</p>
+
+                    <div class="row g-4 pt-3">
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-shield-alt fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Межсетевые экраны</h5>
+                                    <p class="text-white mb-0">Защита от внешних угроз и несанкционированного доступа.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-lock fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Антивирусная и антипамп защита</h5>
+                                    <p class="text-white mb-0">Защита от вирусов и спама для сохранения чистоты данных.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-exclamation-triangle fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Системы предотвращения утечек данных</h5>
+                                    <p class="text-white mb-0">Контроль за утечками конфиденциальной информации.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-user-shield fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Контроль действия пользователей</h5>
+                                    <p class="text-white mb-0">Мониторинг действий пользователей для предотвращения
+                                        угроз.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-key fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Контроль доступа</h5>
+                                    <p class="text-white mb-0">Управление правами доступа к системам и данным.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-clipboard-list fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">SIEM-системы</h5>
+                                    <p class="text-white mb-0">Системы управления событиями и инцидентами безопасности.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-shield-alt fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Защита приложений</h5>
+                                    <p class="text-white mb-0">Обеспечение безопасности приложений от внешних атак.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-fire fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Web Application Firewall</h5>
+                                    <p class="text-white mb-0">Защита веб-приложений от различных атак.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-search fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Сканеры уязвимости</h5>
+                                    <p class="text-white mb-0">Поиск уязвимостей в системе для их устранения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-database fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Защита баз данных</h5>
+                                    <p class="text-white mb-0">Обеспечение безопасности данных на всех уровнях.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-copy fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Резервное копирование и восстановление</h5>
+                                    <p class="text-white mb-0">Гарантия сохранности данных и их восстановление при
+                                        необходимости.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-chart-line fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Мониторинг и управление средствами защиты</h5>
+                                    <p class="text-white mb-0">Обеспечение постоянного контроля за системами
+                                        безопасности.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-random fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Балансировка нагрузки</h5>
+                                    <p class="text-white mb-0">Оптимизация работы систем через распределение нагрузки.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-shield-alt fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Комплексный подход к безопасности</h5>
+                                    <p class="text-white mb-0"> Мы предоставляем надежные решения для защиты ваших
+                                        данных и систем от угроз, включая антивирусную защиту, контроль доступа и
+                                        мониторинг..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light feature pt-5 pb-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-12 align-self-center mb-md-12 pb-md-12 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">ИТ-инфраструктура и ЦОД</div>
+                    <h1 class="text-primary mb-4">С нашими решениями – Надежно как в сейфе</h1>
+                    <p class="text-dark mb-4">Мы предлагаем комплексные решения различных уровней сложности и масштабов
+                        по управлению информационными системами предприятия, включая в себя информационную, сетевую,
+                        инженерную инфраструктуру, а также системы мониторинга/управления и обеспечения безопасности.
+                    </p>
+
+                    <div class="row g-4 pt-3">
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(0, 123, 255, 0.1);">
+                                <i class="fa fa-server fa-3x text-primary"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-0">Серверы и серверные комплексы</h5>
+                                    <p class="text-dark mb-0">Мощные серверы для различных задач бизнеса.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(0, 123, 255, 0.1);">
+                                <i class="fa fa-network-wired fa-3x text-primary"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-0">Сети и коммуникации</h5>
+                                    <p class="text-dark mb-0">Системы, обеспечивающие стабильную связь и передачу
+                                        данных.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(0, 123, 255, 0.1);">
+                                <i class="fa fa-cogs fa-3x text-primary"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-0">Инфраструктурное ПО</h5>
+                                    <p class="text-dark mb-0">Программное обеспечение для управления IT-ресурсами.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(0, 123, 255, 0.1);">
+                                <i class="fa fa-database fa-3x text-primary"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-0">Системы управления базами данных</h5>
+                                    <p class="text-dark mb-0">Эффективное хранение и обработка данных.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(0, 123, 255, 0.1);">
+                                <i class="fa fa-desktop fa-3x text-primary"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-0">Виртуализированная инфраструктура</h5>
+                                    <p class="text-dark mb-0">Оптимизация ресурсов через виртуализацию.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(0, 123, 255, 0.1);">
+                                <i class="fa fa-cloud fa-3x text-primary"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-0">Облачные сервисы</h5>
+                                    <p class="text-dark mb-0">Гибкие решения для хранения и обработки данных.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(0, 123, 255, 0.1);">
+                                <i class="fa fa-building fa-3x text-primary"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-0">Центры обработки данных (ЦОД)</h5>
+                                    <p class="text-dark mb-0">Безопасные и надежные условия для хранения данных.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(0, 123, 255, 0.1);">
+                                <i class="fa fa-tools fa-3x text-primary"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-0">Инженерные системы</h5>
+                                    <p class="text-dark mb-0">Поддержка работы IT-инфраструктуры.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(0, 123, 255, 0.1);">
+                                <i class="fa fa-video fa-3x text-primary"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-0">Видеоконференцсвязь</h5>
+                                    <p class="text-dark mb-0">Современные решения для коммуникации.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(0, 123, 255, 0.1);">
+                                <i class="fa fa-phone-alt fa-3x text-primary"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-0">IP-телефония</h5>
+                                    <p class="text-dark mb-0">Эффективное управление голосовыми вызовами.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(0, 123, 255, 0.1);">
+                                <i class="fa fa-wifi fa-3x text-primary"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-0">Беспроводные системы</h5>
+                                    <p class="text-dark mb-0">Современные решения для мобильности.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(0, 123, 255, 0.1);">
+                                <i class="fa fa-clipboard fa-3x text-primary"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-0">Вычислительные комплексы высокой доступности</h5>
+                                    <p class="text-dark mb-0">Обеспечение непрерывности бизнеса.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-secondary feature pb-5 pt-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-12 align-self-center mb-md-12 pb-md-12 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Бизнес-приложения</div>
+                    <h1 class="text-white mb-4">Умение привлекать и удерживать прибыльных клиентов – основа успеха любой
+                        компании.</h1>
+                    <p class="text-light mb-4">Существенную помощь в решении данных задач оказывают специальные
+                        программные продукты – бизнес-приложения, которые применяются для автоматизации
+                        бизнес-процессов. Наша компания предоставляет широкий ассортимент услуг по разработке и
+                        внедрению всех видов бизнес приложений. Наличие таких приложений повышает эффективность ключевых
+                        бизнес-процессов предприятия, что позволяет сократить сроки поиска и обработки информации,
+                        экономить материальные и человеческие ресурсы, автоматизировать типовые действия в рамках
+                        выполнения процессов и т.д.</p>
+
+                    <div class="row g-4 pt-3">
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-briefcase fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">CRM-системы</h5>
+                                    <p class="text-white mb-0">Управление взаимодействием с клиентами для повышения
+                                        уровня обслуживания.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-file-alt fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">ECM-системы</h5>
+                                    <p class="text-white mb-0">Управление контентом и документами для оптимизации
+                                        процессов.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-chart-bar fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">EPR-системы</h5>
+                                    <p class="text-white mb-0">Управление ресурсами и планирование для повышения
+                                        эффективности.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-users fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">HRM-системы</h5>
+                                    <p class="text-white mb-0">Управление человеческими ресурсами для оптимизации работы
+                                        с персоналом.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-warehouse fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">WMS-системы</h5>
+                                    <p class="text-white mb-0">Управление складами для оптимизации логистических
+                                        процессов.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-cogs fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">MES-системы</h5>
+                                    <p class="text-white mb-0">Управление производственными процессами для повышения
+                                        качества.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-chart-pie fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Аналитические системы</h5>
+                                    <p class="text-white mb-0">Анализ данных для принятия обоснованных решений.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-mobile-alt fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Мобильные решения</h5>
+                                    <p class="text-white mb-0">Решения для работы с бизнес-приложениями на мобильных
+                                        устройствах.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-th fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Портальные решения</h5>
+                                    <p class="text-white mb-0">Создание единого входа в различные бизнес-приложения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-database fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Системы управления качеством данных</h5>
+                                    <p class="text-white mb-0">Обеспечение точности и целостности данных.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-clipboard fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Системы управления основными фондами</h5>
+                                    <p class="text-white mb-0">Управление активами для повышения эффективности
+                                        использования ресурсов.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-calculator fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Системы бюджетирования и управления эффективностью</h5>
+                                    <p class="text-white mb-0">Контроль за бюджетами и оценка эффективности.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-bolt fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h5 class="text-white mb-0">Системы управления энергоэффективностью</h5>
+                                    <p class="text-white mb-0">Оптимизация потребления энергии для снижения затрат.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Наши клиенты</div>
+                    <h1 class="mb-4">Что говорят наши клиенты!</h1>
+                    <p class="mb-4">Мы гордимся сотрудничеством с ведущими компаниями в разных отраслях. Вот некоторые
+                        из них:</p>
+                    <a class="btn btn-primary rounded-pill px-4" href="">Читать далее</a>
+                </div>
+                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Позиция</th>
+                                <th>Наименование</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1▲</td>
+                                <td>ФНБ «Самрук-Казына»</td>
+                            </tr>
+                            <tr>
+                                <td>2▲</td>
+                                <td>Тенгизшевройл</td>
+                            </tr>
+                            <tr>
+                                <td>3▼</td>
+                                <td>Карачаганак Петролиум Оперейтинг Б. В.</td>
+                            </tr>
+                            <tr>
+                                <td>4▲</td>
+                                <td>Мангистаумунайгаз</td>
+                            </tr>
+                            <tr>
+                                <td>5▼</td>
+                                <td>CNPC-Актобемунайгаз</td>
+                            </tr>
+                            <tr>
+                                <td>6▲</td>
+                                <td>Казцинк</td>
+                            </tr>
+                            <tr>
+                                <td>7▼</td>
+                                <td>Корпорация Казахмыс</td>
+                            </tr>
+                            <tr>
+                                <td>8▲</td>
+                                <td>АрселорМиттал Темиртау</td>
+                            </tr>
+                            <tr>
+                                <td>9▲</td>
+                                <td>Казкоммерцбанк</td>
+                            </tr>
+                            <tr>
+                                <td>10▲</td>
+                                <td>ТНК «Казхром»</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<section id="contacts">
+    <div class="container-fluid bg-primary contacts py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn" data-wow-delay="0.3s">
+                    <img class="img-fluid" src="img/newsletter.png" alt="">
+                </div>
+                <div class="col-md-7 py-5 contacts-text wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Контакты</div>
+                    <h1 class="text-white mb-4">Свяжитесь с нами</h1>
+                    <ul class="list-unstyled text-white">
+                        <li class="mb-2"><i class="fa fa-phone me-2"></i> Телефон: <a href="tel:+1234567890" class="text-white">+1 234 567 890</a></li>
+                        <li class="mb-2"><i class="fa fa-envelope me-2"></i> Email: <a href="mailto:info@example.com" class="text-white">info@example.com</a></li>
+                        <li class="mb-2"><i class="fa fa-map-marker me-2"></i> Адрес: 123 Улица, Город, Страна</li>
+                        <li class="mb-2"><i class="fab fa-whatsapp me-2"></i> WhatsApp: <a href="https://wa.me/1234567890" class="text-white">+1 234 567 890</a></li>
+                        <li class="mb-2"><i class="fab fa-telegram me-2"></i> Telegram: <a href="https://t.me/yourusername" class="text-white">@yourusername</a></li>
+                    </ul>
+                    <small class="text-white-50">Мы всегда готовы помочь вам!</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+  
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-white">Euro<span class="text-primary">Snab</span></h1>
+                    </a>
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
+                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
+                        clita duo justo et tempor</p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">Связаться с нами</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Улица, Алматы, Казахстан</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+7 123 456 7890</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@eurosnab.kz</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">Популярные ссылки</h5>
+                    <a class="btn btn-link" href="">О нас</a>
+                    <a class="btn btn-link" href="">Связаться с нами</a>
+                    <a class="btn btn-link" href="">Политика конфиденциальности</a>
+                    <a class="btn btn-link" href="">Условия и положения</a>
+                    <a class="btn btn-link" href="">Карьера</a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4">Наши услуги</h5>
+                    <a class="btn btn-link" href="">Системы хранения данных</a>
+                    <a class="btn btn-link" href="">Кибербезопасность</a>
+                    <a class="btn btn-link" href="">Программное обеспечение</a>
+                    <a class="btn btn-link" href="">Персональные системы</a>
+                    <a class="btn btn-link" href="">Серверное оборудование</a>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">EuroSnab</a>, Все права защищены.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="№">Главная</a>
+                            <a href="#aboutus">О нас</a>
+                            <a href="#services">Услуги</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
